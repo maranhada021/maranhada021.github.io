@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira de ciencias</title>
+    <link rel="stylesheet" href="logo.css"> <!-- Lembre-se de incluir o seu arquivo de estilos CSS, se houver -->
+</head>
+<body>
+    <h1>Quantos litros de água usa para fazer estes itens?</h1>
+    <img src="mx.png" class="minha-imagem">
+
+    <label for="itemSelecionado">Selecione um item:</label>
+    <select id="itemSelecionado">
+        <option value="Papel">Papel</option>
+        <option value="Banana">Banana</option>
+        <option value="Chocolate">Chocolate</option>
+        <!-- Adicione mais opções conforme necessário -->
+    </select>
+
+    <button onclick="calcularConsumo()">Calcular</button>
+
+    <div id="resultado">
+        <h3>Quantidade usada:</h3>
+        <p id="consumoAguaTexto"></p>
+    </div>
+
+    <script src="main.js"></script> <!-- Lembre-se de incluir o seu arquivo de script JavaScript -->
+</body>
+</html>

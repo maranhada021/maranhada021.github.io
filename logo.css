@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #00e1ff; /* Set the background color to blue */
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+select, button {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: px 20px;
+}
+
+.minha-imagem {
+ position: relative;
+ bottom: 90px;
+ left: 935px;
+
+}
+.itemSelecionado  {
+ position: relative;
+ bottom: 100px;
+ left: 20px;
+}
